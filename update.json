@@ -1,8 +1,8 @@
 {
-  "versionCode": 1041,
-  "versionName": "0.4.41",
-  "apkUrl": "https://elite-illustrated.fabianrust187.workers.dev/downloads/ELITE-Illustrated.apk?v=1041",
-  "notes": "Fix für die Update-Schleife: der APK-Download ist jetzt versionsgebunden und umgeht alte Cache-Stände. Zusätzlich sind die neuen Benachrichtigungsfunktionen enthalten.",
+  "versionCode": 1044,
+  "versionName": "0.4.44",
+  "apkUrl": "https://elite-illustrated.fabianrust187.workers.dev/downloads/ELITE-Illustrated-0.4.44.apk?v=1044",
+  "notes": "Stabiles ELITE Illustrated Update mit versionsgebundener APK-Adresse und Hintergrund-Benachrichtigungen.",
   "mandatory": false,
   "latestIssue": "02",
   "latestIssueNumber": 2,
