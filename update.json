@@ -1,8 +1,8 @@
 {
-  "versionCode": 1044,
-  "versionName": "0.4.44",
-  "apkUrl": "https://elite-illustrated.fabianrust187.workers.dev/downloads/ELITE-Illustrated-0.4.44.apk?v=1044",
-  "notes": "Stabiles ELITE Illustrated Update mit versionsgebundener APK-Adresse und Hintergrund-Benachrichtigungen.",
+  "versionCode": 1043,
+  "versionName": "0.4.43",
+  "apkUrl": "",
+  "notes": "Stabile Basisversion. Der automatische APK-Download wird auf einen neuen Host umgestellt.",
   "mandatory": false,
   "latestIssue": "02",
   "latestIssueNumber": 2,
