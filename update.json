@@ -1,7 +1,11 @@
 {
-  "versionCode": 1021,
-  "versionName": "0.4.21",
+  "versionCode": 1030,
+  "versionName": "0.4.30",
   "apkUrl": "https://elite-illustrated.fabianrust187.workers.dev/downloads/ELITE-Illustrated.apk",
-  "notes": "Neues ELITE Illustrated App-Icon als echtes Android Adaptive Icon, inklusive Round-Icon-Unterstützung.",
-  "mandatory": false
+  "notes": "Neu: Benachrichtigungen für neue ELITE Illustrated Ausgaben und App-Updates.",
+  "mandatory": false,
+  "latestIssue": "02",
+  "latestIssueNumber": 2,
+  "latestIssueTitle": "ELITE Illustrated Issue 02",
+  "latestIssuePages": 8
 }
