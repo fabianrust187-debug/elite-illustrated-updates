@@ -1,8 +1,8 @@
 {
-  "versionCode": 1030,
-  "versionName": "0.4.30",
-  "apkUrl": "https://elite-illustrated.fabianrust187.workers.dev/downloads/ELITE-Illustrated.apk",
-  "notes": "Neu: Benachrichtigungen für neue ELITE Illustrated Ausgaben und App-Updates.",
+  "versionCode": 1036,
+  "versionName": "0.4.36",
+  "apkUrl": "https://raw.githubusercontent.com/fabianrust187-debug/elite-illustrated-updates/main/ELITE-Illustrated.apk",
+  "notes": "Fix für die Update-Schleife: APK und Versionsdatei kommen jetzt aus demselben öffentlichen Update-Kanal. Zusätzlich: Live-Magazin und Hintergrund-Benachrichtigungen.",
   "mandatory": false,
   "latestIssue": "02",
   "latestIssueNumber": 2,
