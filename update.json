@@ -1,8 +1,8 @@
 {
-  "versionCode": 1021,
-  "versionName": "0.4.21",
-  "apkUrl": "",
-  "notes": "Update-Kanal wird gerade auf einen stabilen APK-Host umgestellt.",
+  "versionCode": 1041,
+  "versionName": "0.4.41",
+  "apkUrl": "https://elite-illustrated.fabianrust187.workers.dev/downloads/ELITE-Illustrated.apk?v=1041",
+  "notes": "Fix für die Update-Schleife: der APK-Download ist jetzt versionsgebunden und umgeht alte Cache-Stände. Zusätzlich sind die neuen Benachrichtigungsfunktionen enthalten.",
   "mandatory": false,
   "latestIssue": "02",
   "latestIssueNumber": 2,
