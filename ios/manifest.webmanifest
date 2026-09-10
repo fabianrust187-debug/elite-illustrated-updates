@@ -1,0 +1,20 @@
+{
+  "name": "ELITE Illustrated",
+  "short_name": "ELITE",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#030405",
+  "theme_color": "#030405",
+  "orientation": "landscape",
+  "description": "ELITE Illustrated — the FIFA Rivals community magazine.",
+  "icons": [
+    {
+      "src": "./assets/elite-app-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
