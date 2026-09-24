@@ -1,0 +1,1 @@
+Public social media assets for the self-hosted Postiz bridge. Generated assets are deployed to GitHub Pages by deploy-social-media.yml.
