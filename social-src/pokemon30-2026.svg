@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071a3c"/><stop offset="0.55" stop-color="#173f87"/><stop offset="1" stop-color="#080b18"/></linearGradient>
+  <radialGradient id="glow"><stop stop-color="#ffd84a" stop-opacity=".9"/><stop offset="1" stop-color="#ffd84a" stop-opacity="0"/></radialGradient>
+  <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#fff29a"/><stop offset=".35" stop-color="#ffcf2f"/><stop offset="1" stop-color="#ed9413"/></linearGradient>
+  <filter id="shadow"><feDropShadow dx="0" dy="10" stdDeviation="10" flood-opacity=".55"/></filter>
+</defs>
+<rect width="1080" height="1080" fill="url(#bg)"/>
+<circle cx="540" cy="430" r="410" fill="url(#glow)" opacity=".35"/>
+<g opacity=".85" fill="#ffd84a">
+<circle cx="95" cy="115" r="8"/><circle cx="955" cy="170" r="6"/><circle cx="180" cy="860" r="7"/><circle cx="920" cy="820" r="9"/><circle cx="815" cy="90" r="5"/><circle cx="280" cy="170" r="4"/>
+</g>
+<g filter="url(#shadow)" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-weight="900">
+<text x="540" y="390" font-size="310" fill="url(#gold)" stroke="#071a3c" stroke-width="18">30</text>
+<text x="540" y="492" font-size="96" fill="#ffffff" stroke="#071a3c" stroke-width="8">JAHRE</text>
+<text x="540" y="610" font-size="118" fill="#ffcb05" stroke="#2a75bb" stroke-width="12">POKÉMON</text>
+<text x="540" y="685" font-size="42" fill="#ffffff" letter-spacing="12">1996 — 2026</text>
+</g>
+<g transform="translate(155 745)" filter="url(#shadow)"><circle cx="0" cy="0" r="92" fill="#fff"/><path d="M-92 0A92 92 0 0 1 92 0H-92" fill="#e83838"/><rect x="-92" y="-9" width="184" height="18" fill="#141414"/><circle r="30" fill="#fff" stroke="#141414" stroke-width="12"/></g>
+<g transform="translate(925 745) scale(.8)" filter="url(#shadow)"><circle cx="0" cy="0" r="92" fill="#fff"/><path d="M-92 0A92 92 0 0 1 92 0H-92" fill="#e83838"/><rect x="-92" y="-9" width="184" height="18" fill="#141414"/><circle r="30" fill="#fff" stroke="#141414" stroke-width="12"/></g>
+<g text-anchor="middle" font-family="Arial,Helvetica,sans-serif">
+<text x="540" y="830" font-size="46" font-weight="700" fill="#fff">Drei Jahrzehnte voller Abenteuer, Kämpfe</text>
+<text x="540" y="890" font-size="46" font-weight="700" fill="#fff">und unvergesslicher Pokémon-Momente.</text>
+<text x="540" y="990" font-size="32" fill="#ffda43">#Pokemon30 #Pokémon #Vegetarox #PokemonTCG</text>
+</g>
+<g fill="#ffd84a" opacity=".75"><rect x="72" y="510" width="8" height="34" rx="4" transform="rotate(-28 76 527)"/><rect x="997" y="470" width="8" height="34" rx="4" transform="rotate(20 1001 487)"/><rect x="245" y="710" width="8" height="34" rx="4" transform="rotate(38 249 727)"/><rect x="835" y="660" width="8" height="34" rx="4" transform="rotate(-35 839 677)"/></g>
+</svg>
