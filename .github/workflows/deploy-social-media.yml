@@ -1,0 +1,51 @@
+name: Deploy social media artwork
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'social-src/**'
+      - '.github/workflows/deploy-social-media.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: elite-ios-pwa-pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install SVG renderer
+        run: sudo apt-get update && sudo apt-get install -y librsvg2-bin
+
+      - name: Build Pages payload
+        run: |
+          mkdir -p _site
+          cp -a ios/. _site/
+          rsvg-convert -w 1080 -h 1080 social-src/pokemon30-2026.svg -o _site/pokemon30-2026.png
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./_site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
